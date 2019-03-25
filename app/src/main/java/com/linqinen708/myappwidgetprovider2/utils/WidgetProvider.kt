@@ -62,7 +62,7 @@ class WidgetProvider : AppWidgetProvider() {
     /**
      * 当小组件被添加到屏幕上时回调
      *
-     * 9.0 系统 必须使用startForegroundService方法开启service，否则报错
+     * 8.0 系统 必须使用startForegroundService方法开启service，否则报错
      */
     private fun startService(context: Context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
